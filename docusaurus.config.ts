@@ -3,20 +3,20 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'Adakrei Test Site',
+    title: 'Oldper',
     tagline: 'Dinosaurs are cool',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://carry0987.github.io',
+    url: 'https://oldper.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/Docusaurus-Test',
+    baseUrl: '/JS_Turtorial',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Adakrei', // Usually your GitHub org/user name.
-    projectName: 'Docusaurus-Test', // Usually your repo name.
+    organizationName: 'oldper', // Usually your GitHub org/user name.
+    projectName: 'JS_Turtorial', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -38,14 +38,7 @@ const config: Config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/carry0987/Docusaurus-Test/tree/master/',
-                },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/carry0987/Docusaurus-Test/tree/master/',
+                        'https://github.com/oldper/JS_Turtorial',
                 },
                 theme: {
                     customCss: './src/css/custom.css',
@@ -70,7 +63,6 @@ const config: Config = {
                     position: 'left',
                     label: 'Tutorial',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
                 {
                     href: 'https://github.com/facebook/docusaurus',
                     label: 'GitHub',
@@ -121,11 +113,11 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Adakrei Ltd. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Oldper. Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
-            darkTheme: prismThemes.dracula,
+            darkTheme: prismThemes.dracula
         },
     } satisfies Preset.ThemeConfig,
 };
